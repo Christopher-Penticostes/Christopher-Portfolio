@@ -1,17 +1,22 @@
 {
   "files": {
-    "main.css": "/Christopher-Portfolio/static/css/main.a7745de7.css",
-    "main.js": "/Christopher-Portfolio/static/js/main.61b5150b.js",
+    "main.css": "/Christopher-Portfolio/static/css/main.7eab8888.css",
+    "main.js": "/Christopher-Portfolio/static/js/main.cd5ad1b2.js",
+    "static/media/myphoto.jpg": "/Christopher-Portfolio/static/media/myphoto.2622ac8ddc4538cf4f45.jpg",
+    "static/media/Resume.pdf": "/Christopher-Portfolio/static/media/Resume.e7fcf6730a9e2c4229e3.pdf",
     "static/media/Github-Nav.png": "/Christopher-Portfolio/static/media/Github-Nav.9bc46fea0e5b41f360ac.png",
     "static/media/Email-Nav.png": "/Christopher-Portfolio/static/media/Email-Nav.d7501154151fc1bf46be.png",
     "static/media/Linkedin-Nav.png": "/Christopher-Portfolio/static/media/Linkedin-Nav.ac3c17865817242c5b85.png",
+    "static/media/eye.png": "/Christopher-Portfolio/static/media/eye.ee29dbc8847625ae15c0.png",
     "static/media/Facebook-Nav.png": "/Christopher-Portfolio/static/media/Facebook-Nav.e07649afc38579a34a08.png",
+    "static/media/github.png": "/Christopher-Portfolio/static/media/github.05f6c17b8cd04c28456f.png",
+    "static/media/linkedin.png": "/Christopher-Portfolio/static/media/linkedin.f249b38224ca41a0b909.png",
     "index.html": "/Christopher-Portfolio/index.html",
-    "main.a7745de7.css.map": "/Christopher-Portfolio/static/css/main.a7745de7.css.map",
-    "main.61b5150b.js.map": "/Christopher-Portfolio/static/js/main.61b5150b.js.map"
+    "main.7eab8888.css.map": "/Christopher-Portfolio/static/css/main.7eab8888.css.map",
+    "main.cd5ad1b2.js.map": "/Christopher-Portfolio/static/js/main.cd5ad1b2.js.map"
   },
   "entrypoints": [
-    "static/css/main.a7745de7.css",
-    "static/js/main.61b5150b.js"
+    "static/css/main.7eab8888.css",
+    "static/js/main.cd5ad1b2.js"
   ]
 }
