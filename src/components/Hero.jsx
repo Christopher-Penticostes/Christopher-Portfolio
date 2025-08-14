@@ -10,12 +10,12 @@ import { ReactTyped } from "react-typed"
 
 const Hero = () => {
   return (
-    <div className='flex justify-center items-center lg:h-[90.4vh] max-w-[1550px] mx-auto px-7'>
+    <div className='flex justify-center items-center lg:h-[calc(100dvh-10vh)] max-w-[1550px] mx-auto px-7'>
         <div className='flex gap-[95px] max-lg:flex-col max-md:gap-[55px] max-sm:mb-[30px]'>
-            <div className='flex items-center max-lg:justify-center max-lg:mt-[80px] max-md:mt-[50px]'>
+            <div data-aos="fade-right" className='flex items-center max-lg:justify-center max-lg:mt-[80px] max-md:mt-[50px]'>
                 <img src={myPhoto} alt="Christopher" className='rounded-full object-cover object-[50%_20%] aspect-square w-[419px] max-md:w-[419px] max-sm:w-[240px]'/>
             </div>
-            <div className='flex justify-center flex-col max-lg:items-center'>
+            <div data-aos="fade-left" className='flex justify-center flex-col max-lg:items-center'>
                 <div className='flex items-center gap-[6px] mb-[15px] max-md:mb-[5px]'>
                     <p className='font-medium text-[22px] text-[#4F4F4F] font-roboto-condensed max-md:text-[16px]'>Hi! I'm </p>
                     <ReactTyped strings={['A Tech Enthusiast', 'An Aspiring Web Developer']} typeSpeed={120} backSpeed={140} loop className='font-medium text-[22px] bg-gradient-to-l from-lime-500 to-emerald-400 bg-clip-text text-transparent font-roboto-condensed max-md:text-[16px]' />

@@ -4,7 +4,7 @@ import Hero from './Hero'
 
 const Home = () => {
   return (
-    <div>
+    <div className='lg:h-[100dvh] lg:overflow-hidden'>
       <Navbar />
       <Hero />
     </div>

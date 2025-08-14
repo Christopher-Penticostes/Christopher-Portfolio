@@ -14,7 +14,7 @@ const Navbar = () => {
   }
 
   return (
-    <div className='flex justify-between items-center h-[70px] max-w-[1550px] mx-auto px-7 sticky top-0 bg-gradient-to-b from-[#FAFAFA] from-15% via-[#FAFAFA]/50 via-65% to-[#FAFAFA]/0 to-90%'>
+    <div className='flex justify-between items-center h-[73px] max-w-[1550px] mx-auto px-7 sticky top-0 bg-gradient-to-b from-[#FAFAFA] from-15% via-[#FAFAFA]/50 via-65% to-[#FAFAFA]/0 to-90% z-50'>
       <div className="w-[33%]">
         <Link to='/'><h1 className='text-2xl font-extrabold uppercase font-montserrat text-[#2ECC71]'>Christopher.</h1></Link>
       </div> 
