@@ -10,7 +10,7 @@ import { ReactTyped } from "react-typed"
 
 const Hero = () => {
   return (
-    <div className='flex justify-center items-center lg:h-[calc(100dvh-10vh)] max-w-[1550px] mx-auto px-7'>
+    <div className='flex justify-center items-center lg:h-[calc(100dvh-10vh)] max-w-[1550px] mx-auto px-7 max-lg:mb-[30px]'>
         <div className='flex gap-[95px] max-lg:flex-col max-md:gap-[55px] max-sm:mb-[30px]'>
             <div data-aos="fade-right" className='flex items-center max-lg:justify-center max-lg:mt-[80px] max-md:mt-[50px]'>
                 <img src={myPhoto} alt="Christopher" className='rounded-full object-cover object-[50%_20%] aspect-square w-[419px] max-md:w-[419px] max-sm:w-[240px]'/>
