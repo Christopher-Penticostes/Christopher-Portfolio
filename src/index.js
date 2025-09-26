@@ -4,7 +4,9 @@ import { BrowserRouter } from 'react-router-dom';
 import App from './App';
 import './index.css';
 
-const redirect = window.location.search.replace("?redirect=", "");
+const params = new URLSearchParams(window.location.search);
+const redirect = params.get("redirect");
+
 if (redirect) {
   window.history.replaceState(null, "", redirect);
 }
