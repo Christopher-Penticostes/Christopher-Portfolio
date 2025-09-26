@@ -4,9 +4,9 @@ import { BrowserRouter } from 'react-router-dom';
 import App from './App';
 import './index.css';
 
-const redirectPath = window.location.search.replace("?redirect=", "");
-if (redirectPath) {
-  window.history.replaceState(null, "", redirectPath);
+const redirect = window.location.search.replace("?redirect=", "");
+if (redirect) {
+  window.history.replaceState(null, "", redirect);
 }
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
